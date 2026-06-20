@@ -2,6 +2,12 @@
 
 GrowWell is a small farming and fertilizer guidance frontend project. It includes a refreshed landing page, a fertilizer recommendation page, a community page, and a simple login/register flow backed by a local Node.js server.
 
+## Live Demo
+
+You can view the deployed site here:
+
+- https://grow-well-farmers-companion.onrender.com
+
 ## Website Preview
 
 These are lightweight visual previews of the current pages:
