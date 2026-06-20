@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">GrowWell login page preview</title>
+  <desc id="desc">A stylized preview of the GrowWell login screen with a centered login card.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f4ec"/>
+      <stop offset="100%" stop-color="#ede3d3"/>
+    </linearGradient>
+    <linearGradient id="green3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2f6f4e"/>
+      <stop offset="100%" stop-color="#21553b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg3)"/>
+  <rect x="40" y="30" width="1120" height="690" rx="34" fill="#fffdf8" stroke="#d9d1c4"/>
+  <rect x="420" y="90" width="360" height="570" rx="34" fill="#ffffff" stroke="#dfd7c8"/>
+  <circle cx="600" cy="170" r="40" fill="#d7e6d8" stroke="#c1d2c4"/>
+  <circle cx="600" cy="170" r="26" fill="url(#green3)"/>
+  <text x="600" y="246" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#1f2b22">Sign in</text>
+  <text x="600" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5b675f">Access your GrowWell account</text>
+  <rect x="468" y="320" width="264" height="52" rx="16" fill="#fffaf1" stroke="#d8e0d7"/>
+  <text x="488" y="352" font-family="Arial, sans-serif" font-size="14" fill="#8b8b8b">Username</text>
+  <rect x="468" y="392" width="264" height="52" rx="16" fill="#fffaf1" stroke="#d8e0d7"/>
+  <text x="488" y="424" font-family="Arial, sans-serif" font-size="14" fill="#8b8b8b">Password</text>
+  <rect x="468" y="472" width="264" height="54" rx="27" fill="url(#green3)"/>
+  <text x="600" y="506" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Sign in</text>
+  <rect x="468" y="546" width="264" height="52" rx="16" fill="#f5f0e7" stroke="#e0d6c7"/>
+  <text x="600" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5b675f">Create account</text>
+  <rect x="470" y="618" width="260" height="10" rx="5" fill="#e2d9ca"/>
+  <rect x="470" y="634" width="170" height="10" rx="5" fill="#efe6d8"/>
+</svg>
