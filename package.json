@@ -1,0 +1,12 @@
+{
+  "name": "growwell",
+  "version": "1.0.0",
+  "description": "GrowWell is a static farming frontend with a small Node backend for login and registration.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
