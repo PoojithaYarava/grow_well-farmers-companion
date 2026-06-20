@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Match your crop, soil, and climate to a fertilizer recommendation with GrowWell.">
+    <title>GrowWell | Find My Fertilizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="home.html" aria-label="GrowWell home">
+                <img src="images/Logo.jpg" alt="GrowWell logo">
+                <span class="brand-mark">
+                    <strong>GrowWell</strong>
+                    <span>Fertilizer guide</span>
+                </span>
+            </a>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="home.html">Home</a>
+                <a class="active" href="find-my-fertilizer.html">Find My Fertilizer</a>
+                <a href="community.html">Community</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero hero--tight">
+                <div class="hero-copy">
+                    <div class="eyebrow">Quick match tool</div>
+                    <h1>Get a fertilizer recommendation based on plant, soil, and climate.</h1>
+                    <p>
+                        This page now behaves like a real mini tool instead of a static mockup. Pick a plant type,
+                        soil type, and climate, and the recommendation panel updates immediately.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#fertilizer-form">Try the matcher</a>
+                        <a class="button button-secondary" href="home.html#shop">Review the fertilizer types</a>
+                    </div>
+                </div>
+                <aside class="hero-panel">
+                    <img src="images/Fertilizer_result1.jpg" alt="Fertilizer recommendation example">
+                    <div class="panel-caption">
+                        <strong>Practical guidance, not just a placeholder</strong>
+                        <p>Every change in the form updates the recommendation chips and summary text.</p>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="section">
+                <div class="two-column">
+                    <div class="panel">
+                        <h3>Find your match</h3>
+                        <p>Pick the growing conditions you know, and GrowWell will suggest a sensible starting point.</p>
+
+                        <form class="form-grid" id="fertilizer-form" data-fertilizer-form>
+                            <div class="field">
+                                <label for="plant-type">Plant type</label>
+                                <select id="plant-type" name="plant-type">
+                                    <option>Vegetable</option>
+                                    <option>Flower</option>
+                                    <option>Leafy Green</option>
+                                </select>
+                            </div>
+
+                            <div class="field">
+                                <label for="soil-type">Soil type</label>
+                                <select id="soil-type" name="soil-type">
+                                    <option>Sandy</option>
+                                    <option>Clay</option>
+                                    <option>Loamy</option>
+                                </select>
+                            </div>
+
+                            <div class="field">
+                                <label for="climate-type">Location or climate</label>
+                                <input id="climate-type" name="climate-type" type="text" placeholder="Example: hot and dry, humid, rainy">
+                            </div>
+
+                            <button class="button button-primary" type="submit">Update recommendation</button>
+                        </form>
+                    </div>
+
+                    <div class="panel">
+                        <h3 data-recommendation-title>Recommended fertilizer</h3>
+                        <p data-recommendation-body>
+                            Choose a plant, soil, and climate to see a tailored recommendation here.
+                        </p>
+                        <div class="results-box">
+                            <h4>Suggested focus</h4>
+                            <div class="pill-row" data-recommendation-pills>
+                                <span class="pill">Balanced feed</span>
+                                <span class="pill">Seasonal care</span>
+                            </div>
+                        </div>
+                        <div class="notice">
+                            Tip: the recommendation is intentionally lightweight. It is a smart starting point for the
+                            UI, not a substitute for soil testing or local agronomy advice.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div>
+                        <h2>Popular reference results</h2>
+                        <p>These cards keep the original assets but present them in a more useful comparison layout.</p>
+                    </div>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature">
+                        <span class="tag">Result one</span>
+                        <img src="images/Fertilizer_result1.jpg" alt="First fertilizer result">
+                    </article>
+                    <article class="feature">
+                        <span class="tag">Result two</span>
+                        <img src="images/Fertilizer_result2.jpg" alt="Second fertilizer result">
+                    </article>
+                    <article class="feature">
+                        <span class="tag">Best fit</span>
+                        <img src="images/Liquid_Fertilizer.jpg" alt="Liquid fertilizer example">
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <strong>GrowWell</strong>
+            <span>Recommendation page refreshed for <span data-year></span>.</span>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

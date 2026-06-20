@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GrowWell helps gardeners choose the right fertilizer and learn from a practical farming community.">
+    <title>GrowWell | Smart fertilizer guidance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="home.html" aria-label="GrowWell home">
+                <img src="images/Logo.jpg" alt="GrowWell logo">
+                <span class="brand-mark">
+                    <strong>GrowWell</strong>
+                    <span>Fertilizer guide</span>
+                </span>
+            </a>
+            <nav class="nav-links" aria-label="Primary">
+                <a class="active" href="home.html">Home</a>
+                <a href="find-my-fertilizer.html">Find My Fertilizer</a>
+                <a href="community.html">Community</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-copy">
+                    <div class="eyebrow">Updated frontend refresh</div>
+                    <h1>Grow healthier crops with clearer fertilizer guidance.</h1>
+                    <p>
+                        GrowWell is a simple farming companion that helps you compare fertilizer types,
+                        match them to the crop and soil you have, and learn from a community focused on
+                        practical, real-world growing advice.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="find-my-fertilizer.html">Find my fertilizer</a>
+                        <a class="button button-secondary" href="community.html">Explore the community</a>
+                    </div>
+                </div>
+                <aside class="hero-panel">
+                    <img src="images/npk.png" alt="Fertilizer visual showing a crop nutrient concept">
+                    <div class="panel-caption">
+                        <strong>A cleaner, more modern refresh</strong>
+                        <p>Responsive layout, stronger hierarchy, and easier navigation across every page.</p>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <div>
+                        <h2>What GrowWell helps with</h2>
+                        <p>These are the three main fertilizer paths the project already covers, now presented more clearly.</p>
+                    </div>
+                </div>
+                <div class="card-grid" id="shop">
+                    <article class="card">
+                        <img src="images/npk.png" alt="NPK fertilizer">
+                        <div class="card-body">
+                            <h3>NPK Fertilizer</h3>
+                            <p>Balanced nutrition for strong overall plant growth and predictable results.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/organic.png" alt="Organic fertilizer">
+                        <div class="card-body">
+                            <h3>Organic Fertilizer</h3>
+                            <p>Slower, soil-friendly feeding that supports long-term health and structure.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/Homemade_fertilizer.jpg" alt="Homemade fertilizer">
+                        <div class="card-body">
+                            <h3>Homemade Fertilizer</h3>
+                            <p>Simple at-home options for gardeners who want to reuse natural materials.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/Liquid.png" alt="Liquid fertilizer">
+                        <div class="card-body">
+                            <h3>Liquid Fertilizer</h3>
+                            <p>Fast uptake support when plants need a quicker nutritional boost.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="two-column">
+                    <div class="panel">
+                        <h3>Why this refresh helps</h3>
+                        <p>
+                            The original site had the right idea, but the layout was flat and the script was not wired
+                            into the pages. This version keeps your original content while making it feel complete and usable.
+                        </p>
+                        <div class="mini-list">
+                            <div class="mini-item">
+                                <span class="mini-dot"></span>
+                                <div>
+                                    <strong>Cleaner hierarchy</strong>
+                                    <p>Headings, cards, and actions are easier to scan on desktop and mobile.</p>
+                                </div>
+                            </div>
+                            <div class="mini-item">
+                                <span class="mini-dot"></span>
+                                <div>
+                                    <strong>Shared design system</strong>
+                                    <p>One stylesheet now handles all pages, so the project feels consistent.</p>
+                                </div>
+                            </div>
+                            <div class="mini-item">
+                                <span class="mini-dot"></span>
+                                <div>
+                                    <strong>Better behavior</strong>
+                                    <p>Login and fertilizer matching now work through actual form handling.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <h3>At a glance</h3>
+                        <p>A more polished version of your old frontend, still lightweight and easy to run locally.</p>
+                        <div class="stats-grid" style="margin-top: 18px;">
+                            <div class="stat">
+                                <strong>4</strong>
+                                <p>Fertilizer categories shown on the landing page.</p>
+                            </div>
+                            <div class="stat">
+                                <strong>3</strong>
+                                <p>Core sections across home, matching, and community.</p>
+                            </div>
+                            <div class="stat">
+                                <strong><span data-year></span></strong>
+                                <p>The pages now include a live footer year.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <strong>GrowWell</strong>
+            <span>Built for a farming-focused frontend refresh in <span data-year></span>.</span>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

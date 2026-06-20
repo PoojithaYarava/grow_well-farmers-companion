@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login to GrowWell.">
+    <title>GrowWell | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="login-shell">
+        <section class="login-card">
+            <a class="login-brand" href="home.html" aria-label="GrowWell home">
+                <img src="images/Logo.jpg" alt="GrowWell logo">
+                <div>
+                    <strong>GrowWell</strong>
+                    <span>Welcome back</span>
+                </div>
+            </a>
+
+            <h1>Sign in to continue</h1>
+            <p>
+                Sign in with your account credentials to continue to GrowWell.
+            </p>
+
+            <form class="form-grid" data-login-form>
+                <div class="field">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" autocomplete="username" required>
+                </div>
+
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" required>
+                </div>
+                <button class="button button-primary" type="submit">Sign in</button>
+                <div class="login-message" data-login-message aria-live="polite"></div>
+            </form>
+
+            <div class="notice mt-20">
+                Don't have an account? <a href="register.html">Create one here</a>.
+            </div>
+
+            <div class="hero-actions login-actions">
+                <a class="button button-secondary" href="register.html">Create account</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
